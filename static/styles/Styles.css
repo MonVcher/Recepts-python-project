@@ -1,0 +1,207 @@
+.exit {
+    border:3px solid red;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+.exit:hover {
+    border:3px solid rgb(255, 77, 77);
+    color: white;
+    background-color: rgb(255, 77, 77);
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+}
+.UAIP {
+    width: 30%;
+    float: left;
+}
+.RP {
+    width: 20%;
+    float: right;
+}
+.borderR {
+    border: 5px solid #0099cc;
+    border-radius: 10px;
+}
+.borderV {
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+.borderG {  
+    border: 5px solid rgb(32, 116, 11);
+    border-radius: 10px;
+}
+.borderY {
+    border: 5px solid #878787;
+    border-radius: 10px;
+}
+.borderSome {
+    border: 5px solid #b5b207;
+}
+.cental {
+    text-align: center;
+}
+.centall {
+    box-align: center;
+}
+.itemMy {
+    padding: 5px;
+}
+.itemn {
+    padding: 5px;
+    border: 3px solid green;
+    display: flex;
+    border-radius: 5px;
+}
+.iteml {
+    float: left;
+    width: 50%;
+}
+.itemll {
+    float: left;
+    width: 35%;
+}
+.itemr {
+    float: right;
+    width: 50%;
+}
+.itemrr {
+    float: right;
+    width: 65%;
+}
+.imgsize {
+    height: 125px;
+    width: 140px;
+}
+.imgadsize {
+    width: 500px;
+}
+.backcolor {
+    background-color: rgb(32, 116, 11);
+    color: white;
+}
+.backcolorV {
+    background-color: #e8e409;
+    color: white;
+}
+.backcolorV:hover {
+    background-color: #b5b207;
+    color: white;
+    text-decoration: none;
+}
+.backcolor:hover {
+    background-color: rgb(80, 201, 80);
+    color: white;
+    text-decoration: none;
+}
+.BI {
+    border: 2px solid rgb(32, 116, 11);
+    border-radius: 10px;
+}
+.paing {
+    padding: 5px;
+}
+.paingsm {
+    padding: 3px;
+}
+.descp {
+    display: flex;
+}
+.datal {
+    float: left;
+    width: 50%;
+}
+.datar {
+    float: right;
+    width: 50%;
+}
+.botind {
+    padding-bottom: 15px;
+}
+.padr {
+    padding-right: 100px;
+}
+.marg {
+    margin-bottom: 10px;
+}
+.polosaty {
+    background: repeating-linear-gradient(
+  45deg,
+  #33ccff,
+  #33ccff 10px,
+  #a8d9ff 10px,
+  #a8d9ff 20px
+);}
+.polosatyR {
+    background: repeating-linear-gradient(
+  135deg,
+  #ff2e2e,
+  #ff2e2e 10px,
+  #ff6161 10px,
+  #ff6161 20px
+);}
+.stolbikG {
+    background-color: rgb(69, 128, 69);
+}
+.selectf {
+    height: 60px;
+    width: 200px;
+    font-size: 30px;
+}
+.szt {
+    font-size: 22px;
+}
+.szzt {
+    font-size: 20px;
+}
+@media (max-width: 70000px) {
+    .grates {
+        grid-template-columns: repeat(8, 12.5%);
+        display: grid;
+        grid-auto-rows: minmax(20%, auto);
+    }
+}
+@media (max-width: 2800px) {
+    .grates {
+        grid-template-columns: repeat(6, 16.7%);
+        display: grid;
+        grid-auto-rows: minmax(20%, auto);
+    }
+}
+@media (max-width: 2600px) {
+    .grates {
+        grid-template-columns: repeat(5, 20%);
+        display: grid;
+        grid-auto-rows: minmax(20%, auto);
+    }
+}
+@media (max-width: 1900px) {
+    .grates {
+        grid-template-columns: repeat(4, 25%);
+        display: grid;
+        grid-auto-rows: minmax(20%, auto);
+    }
+}
+@media (max-width: 1540px) {
+    .grates {
+        grid-template-columns: repeat(3, 33%);
+        display: grid;
+        grid-auto-rows: minmax(20%, auto);
+    }
+}
+@media (max-width: 1150px) {
+    .grates {
+        grid-template-columns: repeat(2, 50%);
+        display: grid;
+        grid-auto-rows: minmax(20%, auto);
+    }
+}
+@media (max-width: 730px) {
+    .grates {
+        grid-template-columns: 100%;
+        display: grid;
+        grid-auto-rows: minmax(20%, auto);
+    }
+}
