@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Вот что получилось найти</h1>
+    <table>
+
+        {% for opt in option %}
+          <tr>
+            <td><h2> {{ opt | safe }}</h2></td>
+          </tr>
+
+        {% endfor %}
+        </table>
+</div>
+{% endblock %}
