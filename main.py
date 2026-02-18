@@ -79,7 +79,7 @@ def search():
         print(zapros)
         db_sess.commit()
         return redirect('/demonstrarion')
-    return render_template("search.html", form=form, title="Из чего будем готовить?")
+    return render_template("search.html", form=form, title="Ингредеиенты")
 
 @app.route("/demonstrarion")
 def demonstrarion():
@@ -115,7 +115,7 @@ def reqister():
             return render_template('register.html',
                                    title='Регистрация',
                                    form=form,
-                                   message= "Такой пользователь уже есть",
+                                   message= "Такой пользователь уже есть в системе",
                                    )
         user = Users(name=form.name.data,
                      password=form.password.data,
